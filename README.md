@@ -7,4 +7,4 @@ How to reproduce?
 * bin/rspec - should pass
 * bin/rspec - should pass again
 * modify file app/models/user.rb (for example add line with comment)
-* bin/rspec - should fail with message "user_spec.rb:3:in `<top (required)>': uninitialized constant User (NameError)"
+* bin/rspec - should ~~fail with message "user_spec.rb:3:in `<top (required)>': uninitialized constant User (NameError)"~~ no longer fail, now eager_load is turned off.
